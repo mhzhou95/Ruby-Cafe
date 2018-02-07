@@ -1,6 +1,46 @@
-<<<<<<< HEAD
 
-=======
+
+body {
+  width: 85%;
+  margin: 0 auto; }
+
+.about_header {
+  text-align: center; }
+
+#about_fullpage {
+  background-color: teal; }
+
+.about_div {
+  background-color: lightblue;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 5px;
+  width: 49%;
+  vertical-align: top;
+  font-size: 14pt; }
+
+#about_image1 {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  background-image: url(../images/teamwork.jpg);
+  background-size: cover; }
+
+#about_image2 {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  background-image: url(../images/whoweare.jpg);
+  background-size: cover; }
+
+#about_image3 {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  background-image: url(../images/eathealthy.jpg);
+  background-size: cover; }
+
+
 .navbar {
   background-color: lightgrey;
   width: 100%;
@@ -28,6 +68,7 @@ body {
   background-color: IndianRed;
   font-family: "helvetica", sans-serif;
   box-shadow: 10px 5px 5px; }
->>>>>>> 183d7302a5edb83c141baa1276c6ceb1a31195b5
+
+
 
 /*# sourceMappingURL=main.css.map */

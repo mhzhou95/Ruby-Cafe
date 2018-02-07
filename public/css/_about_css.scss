@@ -1,18 +1,19 @@
 .about_header{
 	text-align:center;
-}
+} 
 
 #about_fullpage{
-	background-color:teal;
+	background-color:$background-color;
 }
 .about_div{
-	background-color: lightblue;
+	background-color: $background-color;
 	display: inline-block;
 	margin: 10px auto;
 	padding: 5px;
 	width: 49%;
 	vertical-align:top;
 	font-size:14pt;
+	color: $color
 }
 
 #about_image1{
