@@ -1,3 +1,33 @@
+<<<<<<< HEAD
 
+=======
+.navbar {
+  background-color: lightgrey;
+  width: 100%;
+  height: 100px;
+  font-family: "helvetica", sans-serif; }
+
+.navbar a {
+  color: ivory;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "helvetica", sans-serif; }
+
+.title {
+  width: 100%;
+  height: 60px;
+  background-color: ivory;
+  font-family: "helvetica", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: IndianRed;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+
+body {
+  background-color: IndianRed;
+  font-family: "helvetica", sans-serif;
+  box-shadow: 10px 5px 5px; }
+>>>>>>> 183d7302a5edb83c141baa1276c6ceb1a31195b5
 
 /*# sourceMappingURL=main.css.map */
