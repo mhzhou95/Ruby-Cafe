@@ -1,3 +1,4 @@
+
 #contact_container {
   margin: 5px auto;
   margin-left: 5px;
@@ -47,6 +48,8 @@
   text-align: center;
   display: inline-block;
   width: 54%; }
+
+
 
 .navbar {
   background-color: lightgrey;
@@ -101,16 +104,24 @@ body {
   font-size: 27pt; }
 
 #about_fullpage {
+
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/eathealthy.jpg);
   background-size: cover; }
 
 .about_div, .about_div1 {
+
+  background-color: indianred; }
+
+.about_div {
+  background-color: indianred;
+
   display: inline-block;
   margin: 10px auto;
   padding: 5px;
   width: 49%;
   vertical-align: top;
+
   font-size: 18pt;
   color: ivory;
   font-family: "helvetica", sans-serif;
@@ -119,12 +130,33 @@ body {
 .about_div1 {
   width: 40%; }
 
+  font-size: 14pt;
+  color: ivory;
+  font-family: "helvetica", sans-serif; }
+
+#about_image1 {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  background-image: url(../images/teamwork.jpg);
+  background-size: cover; }
+
+
 #about_image2 {
   display: inline-block;
   width: 49%;
   height: 45%;
   background-image: url(../images/whoweare.jpg);
   background-size: cover; }
+
+
+#about_image3 {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  background-image: url(../images/eathealthy.jpg);
+  background-size: cover; }
+
 
 #header {
   font-family: "helvetica", sans-serif;
@@ -145,34 +177,33 @@ body {
   box-shadow: 10px 5px 5px; }
 
 #homepagebox {
-  width: 100%;
-  height: 500px;
-  border-top: solid; }
-
-#textbox {
-  margin: 15px; }
-
-#homepagebox2 {
-  width: 60%;
+  width: 99%;
   height: 400px;
-  text-align: justified;
   font-family: "helvetica", sans-serif;
-  font-size: 35px;
-  float: left;
+  font-size: 40px;
   color: ivory;
-  position: relative;
-  margin: 15px;
-  text-indent: 50px; }
+  margin: 20px;
+  text-indent: 50px;
+  display: in-line block; }
 
 #burgerphoto {
-  width: 500px;
-  height: 500px;
+  width: 335px;
+  height: 335px;
   background-image: url(../images/burger.jpg);
   background-size: 100% 100%;
   border: solid;
-  float: right;
-  margin: 15;
-  box-shadow: 10px 5px 5px; }
+  margin-right: 25px;
+  box-shadow: 10px 5px 5px;
+  color: black;
+  float: right; }
+
+
+#wrapper {
+  width: 100%;
+  height: 550px;
+  border: solid;
+  color: white; }
+
 
 #modal {
   width: 500px;
@@ -197,5 +228,159 @@ body {
   width: 60px;
   height: 60px;
   background-color: grey; }
+
+
+@media all and (max-width: 1200px) {
+  #homepagebox {
+    width: 99%;
+    height: 400px;
+    text-align: justified;
+    font-family: "helvetica", sans-serif;
+    font-size: 30px;
+    color: ivory;
+    position: relative;
+    margin: 15px;
+    text-indent: 50px; }
+
+  #burgerphoto {
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/burger.jpg);
+    background-size: 100% 100%;
+    border: solid;
+    margin: 15px;
+    box-shadow: 10px 5px 5px; }
+
+  #wrapper {
+    width: 100%;
+    height: 525px;
+    border: solid;
+    color: white; } }
+@media all and (max-width: 992px) {
+  #homepagebox {
+    width: 99%;
+    height: 400px;
+    text-align: justified;
+    font-family: "helvetica", sans-serif;
+    font-size: 30px;
+    color: ivory;
+    margin: 15px;
+    text-indent: 50px;
+    display: in-line block; }
+
+  #burgerphoto {
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/burger.jpg);
+    background-size: 100% 100%;
+    border: solid;
+    margin-right: 30px;
+    margin-top: 15px;
+    float: right;
+    box-shadow: 10px 5px 5px; }
+
+  #wrapper {
+    width: 100%;
+    height: 500px;
+    border: solid;
+    color: white; } }
+@media all and (min-width: 481px) and (max-width: 768px) {
+  #burgerphoto {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/burger.jpg);
+    background-size: 100% 100%;
+    box-shadow: 10px 5px 5px;
+    float: right; }
+
+  #homepagebox {
+    width: 99%;
+    height: 300px;
+    font-family: "helvetica", sans-serif;
+    font-size: 30px;
+    color: ivory;
+    text-indent: 50px;
+    display: inline-block; }
+
+  #wrapper {
+    width: 100%;
+    height: 775px;
+    border: solid;
+    color: white;
+    margin: 10px; }
+
+  #modal {
+    width: 300px;
+    height: 300px;
+    border: solid 5px;
+    display: none;
+    margin: 0 auto;
+    background-color: ivory;
+    position: fixed;
+    bottom: 100px;
+    left: 200px; }
+
+  #modaltext {
+    text-align: center;
+    font-family: "helvetica", sans-serif;
+    font-size: 30px;
+    margin: 20px; }
+
+  #close {
+    font-size: 50px;
+    border: solid;
+    width: 40px;
+    height: 40px;
+    background-color: grey; } }
+@media all and (max-width: 480px) {
+  #burgerphoto {
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/burger.jpg);
+    background-size: 100% 100%;
+    box-shadow: 10px 5px 5px;
+    float: right; }
+
+  #homepagebox {
+    width: 99%;
+    height: 300px;
+    font-family: "helvetica", sans-serif;
+    font-size: 18px;
+    color: ivory;
+    text-indent: 50px;
+    display: inline-block;
+    margin: 10px; }
+
+  #wrapper {
+    width: 100%;
+    height: 450px;
+    border: solid;
+    color: white;
+    margin: 10px; }
+
+  #modal {
+    width: 200px;
+    height: 200px;
+    border: solid 5px;
+    display: none;
+    margin: 0 auto;
+    background-color: ivory;
+    position: fixed;
+    bottom: 100px;
+    left: 200px; }
+
+  #modaltext {
+    text-align: center;
+    font-family: "helvetica", sans-serif;
+    font-size: 18px;
+    margin: 20px; }
+
+  #close {
+    font-size: 50px;
+    border: solid;
+    width: 40px;
+    height: 40px;
+    background-color: grey; } }
+
 
 /*# sourceMappingURL=main.css.map */
