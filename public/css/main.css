@@ -1,23 +1,25 @@
-
-
 body {
   width: 85%;
   margin: 0 auto; }
 
 .about_header {
-  text-align: center; }
+  text-align: center;
+  font-family: "helvetica", sans-serif;
+  color: ivory; }
 
 #about_fullpage {
-  background-color: teal; }
+  background-color: IndianRed; }
 
 .about_div {
-  background-color: lightblue;
+  background-color: IndianRed;
   display: inline-block;
   margin: 10px auto;
   padding: 5px;
   width: 49%;
   vertical-align: top;
-  font-size: 14pt; }
+  font-size: 14pt;
+  color: ivory;
+  font-family: "helvetica", sans-serif; }
 
 #about_image1 {
   display: inline-block;
@@ -39,7 +41,6 @@ body {
   height: 300px;
   background-image: url(../images/eathealthy.jpg);
   background-size: cover; }
-
 
 .navbar {
   background-color: lightgrey;
@@ -68,7 +69,5 @@ body {
   background-color: IndianRed;
   font-family: "helvetica", sans-serif;
   box-shadow: 10px 5px 5px; }
-
-
 
 /*# sourceMappingURL=main.css.map */

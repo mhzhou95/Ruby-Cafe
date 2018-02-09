@@ -1,5 +1,7 @@
 .about_header{
 	text-align:center;
+	font-family: $font-family;
+	color: $color;
 } 
 
 #about_fullpage{
@@ -13,7 +15,8 @@
 	width: 49%;
 	vertical-align:top;
 	font-size:14pt;
-	color: $color
+	color: $color;
+	font-family: $font-family;
 }
 
 #about_image1{
