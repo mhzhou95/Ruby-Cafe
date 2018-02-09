@@ -1,11 +1,5 @@
 
-body{
-	width: 85%;
-	margin: 0 auto;
-}
-
-@import 'about_css'
-
 @import 'variables';
 @import 'template';
-
+@import 'about_css';
+@import 'home';

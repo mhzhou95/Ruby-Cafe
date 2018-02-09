@@ -1,23 +1,64 @@
+.navbar {
+  background-color: lightgrey;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  font-family: "helvetica", sans-serif;
+  overflow: hidden;
+  border-bottom: solid; }
 
+.navbar ul {
+  list-style-type: none;
+  text-align: center; }
+
+.navbar a {
+  color: indianred;
+  margin: 0;
+  text-decoration: none;
+  padding: 0; }
+
+.navbar li {
+  display: inline;
+  margin: 10px; }
+
+.navbar a:hover {
+  color: black; }
+
+.title {
+  width: 100%;
+  background-color: lightgrey;
+  height: 70px;
+  font-family: "helvetica", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: indianred;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  border-top: solid black; }
 
 body {
-  width: 85%;
-  margin: 0 auto; }
+  background-color: indianred;
+  font-family: "helvetica", sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1; }
 
 .about_header {
   text-align: center; }
 
 #about_fullpage {
-  background-color: teal; }
+  background-color: indianred; }
 
 .about_div {
-  background-color: lightblue;
+  background-color: indianred;
   display: inline-block;
   margin: 10px auto;
   padding: 5px;
   width: 49%;
   vertical-align: top;
-  font-size: 14pt; }
+  font-size: 14pt;
+  color: ivory; }
 
 #about_image1 {
   display: inline-block;
@@ -40,35 +81,60 @@ body {
   background-image: url(../images/eathealthy.jpg);
   background-size: cover; }
 
-
-.navbar {
-  background-color: lightgrey;
-  width: 100%;
-  height: 100px;
-  font-family: "helvetica", sans-serif; }
-
-.navbar a {
-  color: ivory;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  font-family: "helvetica", sans-serif; }
-
-.title {
-  width: 100%;
-  height: 60px;
-  background-color: ivory;
+#header {
   font-family: "helvetica", sans-serif;
-  font-size: 35px;
   text-align: center;
-  color: IndianRed;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+  margin: 10px;
+  font-size: 40px; }
 
-body {
-  background-color: IndianRed;
-  font-family: "helvetica", sans-serif;
+#dinerphoto {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/diner.jpg);
+  background-size: 100% 100%;
+  border: solid;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 10px 5px 5px; }
 
+#homepagebox {
+  width: 100%;
+  height: 500px;
+  border-top: solid; }
 
+#textbox {
+  margin: 15px; }
+
+#homepagebox2 {
+  width: 60%;
+  height: 400px;
+  text-align: justified;
+  font-family: "helvetica", sans-serif;
+  border: solid;
+  background-color: lightgrey;
+  font-size: 35px;
+  float: left;
+  position: relative;
+  margin: 10px; }
+
+#burgerphoto {
+  width: 500px;
+  height: 500px;
+  background-image: url(../images/burger.jpg);
+  background-size: 100% 100%;
+  border: solid;
+  float: right;
+  margin: 15;
+  box-shadow: 10px 5px 5px; }
+
+#modal {
+  width: 500px;
+  height: 250px;
+  border: solid;
+  display: none;
+  margin: 0 auto;
+  background-color: ivory; }
 
 /*# sourceMappingURL=main.css.map */
