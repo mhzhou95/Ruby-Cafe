@@ -1,4 +1,5 @@
 
+
 #contact_container {
   margin: 5px auto;
   margin-left: 5px;
@@ -105,11 +106,13 @@ body {
 
 #about_fullpage {
 
+
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/eathealthy.jpg);
   background-size: cover; }
 
 .about_div, .about_div1 {
+
 
   background-color: indianred; }
 
@@ -129,6 +132,7 @@ body {
 
 .about_div1 {
   width: 40%; }
+
 
   font-size: 14pt;
   color: ivory;
@@ -204,7 +208,6 @@ body {
   border: solid;
   color: white; }
 
-
 #modal {
   width: 500px;
   height: 400px;
@@ -229,6 +232,34 @@ body {
   height: 60px;
   background-color: grey; }
 
+.header {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+  margin: 20px;
+  font-size: 40px; }
+
+.list {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+  margin: 20px;
+  font-size: 28px; }
+
+.breakfast {
+  background-color: red; }
+
+.lunch {
+  background-color: red; }
+
+.dinner {
+  background-color: red; }
+
+.container {
+  text-align: center; }
+
+#subject {
+  width: 50%;
+  height: 60px;
+  font-size: 20px; }
 
 @media all and (max-width: 1200px) {
   #homepagebox {
