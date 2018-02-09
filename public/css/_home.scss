@@ -5,7 +5,7 @@
 
 }
 
-#dinerphoto {width: 100%;
+#dinerphoto{width: 100%;
 		height: 500px;
 		background-image: url(../images/diner.jpg);
 		background-size: 100% 100%;
@@ -17,37 +17,35 @@
     	box-shadow: $box-shadow;
 }
 
-#homepagebox {width: 100%;
-			height: 500px;
-			border-top: solid;
 
+
+#homepagebox {width: 99%;
+			height: 400px;
+			font-family: $font-family;
+			font-size: 40px;
+			color: ivory;
+			margin: 20px;
+			text-indent: 50px;
+			display: in-line block;
 }
 
-#textbox {margin: 15px;}
 
-#homepagebox2 {width: 60%;
-			height: 400px;
-			text-align: justified;
-			font-family: $font-family;
-			font-size: 35px;
-			float: left;
-			color: ivory;
-			position: relative;
-			margin: 15px;
-			text-indent: 50px;
-		}
-
-
-
-#burgerphoto {width: 500px;
-				height: 500px;
+#burgerphoto {width: 335px;
+				height: 335px;
 				background-image: url(../images/burger.jpg);
 				background-size: 100% 100%;
 				border: solid;
-				float: right;
-				margin: 15;
+				margin-right: 25px; 
 				box-shadow: $box-shadow;
-	}
+				color: black;
+				float: right;
+}
+
+#wrapper {width: 100%;
+			height: 550px;
+			border: solid;
+			color: white;
+		}
 
 #modal {
   width: 500px;
@@ -59,7 +57,7 @@
   position: fixed;
   bottom: 100px; 
   left: 200px;
-	}
+}
 
 #modaltext {
 	text-align: center;
@@ -74,5 +72,197 @@
 	width: 60px;
 	height: 60px;
 	background-color: grey;
+
+}
+
+@media all and (max-width: 1200px){
+
+#homepagebox {width: 99%;
+			height: 400px;
+			text-align: justified;
+			font-family: $font-family;
+			font-size: 30px;
+			color: ivory;
+			position: relative;
+			margin: 15px;
+			text-indent: 50px;
+
+		}
+
+#burgerphoto {width: 350px;
+				height: 350px;
+				background-image: url(../images/burger.jpg);
+				background-size: 100% 100%;
+				border: solid;
+				margin: 15px;
+				box-shadow: $box-shadow;
+			}
+
+#wrapper {width: 100%;;
+			height: 525px;
+			border: solid;
+			color: white;
+		}
+
+}
+
+
+@media all and (max-width: 992px) {
+
+
+#homepagebox {width: 99%;
+			height: 400px;
+			text-align: justified;
+			font-family: $font-family;
+			font-size: 30px;
+			color: ivory;
+			margin: 15px;
+			text-indent: 50px;
+			display: in-line block;
+
+}
+
+
+#burgerphoto {width: 250px;
+				height: 250px;
+				background-image: url(../images/burger.jpg);
+				background-size: 100% 100%;
+				border: solid;
+				margin-right: 30px;
+				margin-top: 15px;
+				float: right;
+				box-shadow: $box-shadow;
+}
+
+#wrapper {width: 100%;;
+			height: 500px;
+			border: solid;
+			color: white;
+		}
+
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+#burgerphoto 	{width: 300px;;
+				height: 300px;
+				background-image: url(../images/burger.jpg);
+				background-size: 100% 100%;
+				box-shadow: $box-shadow;
+				float: right;
+				
+}
+
+
+#homepagebox {width: 99%;
+			height: 300px;
+			font-family: $font-family;
+			font-size: 30px;
+			color: ivory;
+			text-indent: 50px;
+			display: inline-block;
+}
+
+
+#wrapper {width: 100%;
+			height: 775px;
+			border: solid;
+			color: white;
+			margin: 10px;
+		}
+
+#modal {
+  width: 300px;
+  height: 300px;
+  border: solid 5px;
+  display: none;
+  margin: 0 auto;
+  background-color: ivory;
+  position: fixed;
+  bottom: 100px; 
+  left: 200px;
+}
+
+#modaltext {
+	text-align: center;
+ 	font-family: $font-family;
+ 	font-size: 30px;
+ 	margin: 20px;
+}
+
+#close {
+	font-size: 50px;
+	border: solid;
+	width: 40px;
+	height: 40px;
+	background-color: grey;
+
+}
+
+
+}
+
+@media all and (max-width:480px){
+
+#burgerphoto 	{width: 200px;;
+				height: 200px;
+				background-image: url(../images/burger.jpg);
+				background-size: 100% 100%;
+				box-shadow: $box-shadow;
+				float: right;
+				
+}
+
+
+#homepagebox {width: 99%;
+			height: 300px;
+			font-family: $font-family;
+			font-size: 18px;
+			color: ivory;
+			text-indent: 50px;
+			display: inline-block;
+			margin: 10px;
+}
+
+
+#wrapper {width: 100%;
+			height: 450px;
+			border: solid;
+			color: white;
+			margin: 10px;
+		}
+
+#modal {
+  width: 200px;
+  height: 200px;
+  border: solid 5px;
+  display: none;
+  margin: 0 auto;
+  background-color: ivory;
+  position: fixed;
+  bottom: 100px; 
+  left: 200px;
+}
+
+#modaltext {
+	text-align: center;
+ 	font-family: $font-family;
+ 	font-size: 18px;
+ 	margin: 20px;
+}
+
+#close {
+	font-size: 50px;
+	border: solid;
+	width: 40px;
+	height: 40px;
+	background-color: grey;
+
+}
+
+
+
+
+
 
 }
