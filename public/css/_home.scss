@@ -1,0 +1,49 @@
+#header {font-family: $font-family;
+		 text-align: center;
+		 margin: 10px;
+		 font-size: 40px;
+
+}
+
+#dinerphoto {width: 100%;
+		height: 500px;
+		background-image: url(../images/diner.jpg);
+		background-size: 100% 100%;
+		border: solid;
+		background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	box-shadow: $box-shadow;
+}
+
+#homepagebox {width: 100%;
+			height: 500px;
+			border-top: solid;
+
+}
+
+#textbox {margin: 15px;}
+
+#homepagebox2 {width: 60%;
+			height: 400px;
+			text-align: justified;
+			font-family: $font-family;
+			border: solid;
+			background-color: lightgrey;
+			font-size: 35px;
+			float: left;
+			position: relative;
+			margin: 10px;
+		}
+
+
+#burgerphoto {width: 500px;
+				height: 500px;
+				background-image: url(../images/burger.jpg);
+				background-size: 100% 100%;
+				border: solid;
+				float: right;
+				margin: 15;
+				box-shadow: $box-shadow;
+	}
