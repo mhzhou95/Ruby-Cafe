@@ -1,44 +1,46 @@
-.about_header{
-	text-align:center;
-	font-family: $font-family;
-	color: $color;
-} 
-
-#about_fullpage{
-	background-color:$background-color;
-}
-.about_div{
-	background-color: $background-color;
-	display: inline-block;
-	margin: 10px auto;
-	padding: 5px;
-	width: 49%;
-	vertical-align:top;
-	font-size:14pt;
-	color: $color;
-	font-family: $font-family;
+.about_header {
+    text-align: center;
+    font-family: $font-family;
+    color: $color;
 }
 
-#about_image1{
-	display:inline-block;
-	width: 49%;
-	height: 300px;
-	background-image: url(../images/teamwork.jpg);
-	background-size: cover;
+#about_fullpage {
+    background-color: $background-color;
+    text-align: center;
 }
 
-#about_image2{
-	display:inline-block;
-	width:49%;
-	height:300px;
-	background-image: url(../images/whoweare.jpg);
-	background-size:cover;
+.about_div {
+    background-color: $background-color;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 49%;
+    vertical-align: top;
+    font-size: 18pt;
+    color: $color;
+    font-family: $font-family;
 }
 
-#about_image3{
-	display:inline-block;
-	width:49%;
-	height:300px;
-	background-image: url(../images/eathealthy.jpg);
-	background-size: cover;
+#about_image1 {
+    display: inline-block;
+    width: 49%;
+    height: 45%;
+    background-image: url(../images/teamwork.jpg);
+    background-size: cover;
+}
+
+#about_image2 {
+    display: inline-block;
+    width: 49%;
+    height: 45%;
+    background-image: url(../images/whoweare.jpg);
+    background-size: cover;
+}
+
+#about_image3 {
+    display: inline-block;
+    width: 49%;
+    height: 45%;
+    background-image: url(../images/eathealthy.jpg);
+    background-size: cover;
 }

@@ -1,78 +1,82 @@
-#header {font-family: $font-family;
-		 text-align: center;
-		 margin: 10px;
-		 font-size: 40px;
-
+#header {
+    font-family: $font-family;
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
 }
 
-#dinerphoto {width: 100%;
-		height: 500px;
-		background-image: url(../images/diner.jpg);
-		background-size: 100% 100%;
-		border: solid;
-		background-attachment: fixed;
-    	background-position: center;
-    	background-repeat: no-repeat;
-    	background-size: cover;
-    	box-shadow: $box-shadow;
+#dinerphoto {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/diner.jpg);
+    background-size: 100% 100%;
+    border: solid;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: $box-shadow;
 }
 
-#homepagebox {width: 100%;
-			height: 500px;
-			border-top: solid;
-
+#homepagebox {
+    width: 100%;
+    height: 500px;
+    border-top: solid;
 }
 
-#textbox {margin: 15px;}
+#textbox {
+    margin: 15px;
+}
 
-#homepagebox2 {width: 60%;
-			height: 400px;
-			text-align: justified;
-			font-family: $font-family;
-			font-size: 35px;
-			float: left;
-			color: ivory;
-			position: relative;
-			margin: 15px;
-			text-indent: 50px;
-		}
+#homepagebox2 {
+    width: 60%;
+    height: 400px;
+    text-align: justified;
+    font-family: $font-family;
+    font-size: 35px;
+    float: left;
+    color: ivory;
+    position: relative;
+    margin: 15px;
+    text-indent: 50px;
+}
 
 
 
-#burgerphoto {width: 500px;
-				height: 500px;
-				background-image: url(../images/burger.jpg);
-				background-size: 100% 100%;
-				border: solid;
-				float: right;
-				margin: 15;
-				box-shadow: $box-shadow;
-	}
+#burgerphoto {
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/burger.jpg);
+    background-size: 100% 100%;
+    border: solid;
+    float: right;
+    margin: 15;
+    box-shadow: $box-shadow;
+}
 
 #modal {
-  width: 500px;
-  height: 400px;
-  border: solid 5px;
-  display: none;
-  margin: 0 auto;
-  background-color: ivory;
-  position: fixed;
-  bottom: 100px; 
-  left: 200px;
-	}
+    width: 500px;
+    height: 400px;
+    border: solid 5px;
+    display: none;
+    margin: 0 auto;
+    background-color: ivory;
+    position: fixed;
+    bottom: 100px;
+    left: 200px;
+}
 
 #modaltext {
-	text-align: center;
- 	font-family: $font-family;
- 	font-size: 50px;
- 	margin: 20px;
+    text-align: center;
+    font-family: $font-family;
+    font-size: 50px;
+    margin: 20px;
 }
 
 #close {
-	font-size: 70px;
-	border: solid;
-	width: 60px;
-	height: 60px;
-	background-color: grey;
-
+    font-size: 70px;
+    border: solid;
+    width: 60px;
+    height: 60px;
+    background-color: grey;
 }

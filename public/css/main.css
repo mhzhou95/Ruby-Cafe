@@ -1,3 +1,55 @@
+#contact_container {
+  margin: 5px auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "helvetica", sans-serif;
+  color: ivory;
+  background-color: indianred;
+  padding: 3px; }
+
+#content {
+  font-family: "helvetica", sans-serif;
+  font-size: 16pt;
+  width: 85%;
+  height: 300px;
+  margin-top: 5px; }
+
+#email {
+  font-family: "helvetica", sans-serif;
+  font-size: 13pt;
+  width: 300px;
+  height: 25px;
+  margin-left: 13px;
+  margin-bottom: 5px;
+  text-align: center; }
+
+#subject {
+  font-family: "helvetica", sans-serif;
+  font-size: 13pt;
+  width: 300px;
+  height: 25px;
+  text-align: center; }
+
+#send_email {
+  height: 25px;
+  width: 90px; }
+
+#contact_picture {
+  background-image: url("../images/contact_us.jpg");
+  background-size: cover;
+  width: 45%;
+  height: 67%;
+  display: inline-block; }
+
+#phonenumber {
+  display: block;
+  text-align: center; }
+
+#contact_form {
+  text-align: center;
+  display: inline-block;
+  width: 54%; }
+
 .navbar {
   background-color: lightgrey;
   width: 100%;
@@ -50,7 +102,8 @@ body {
   color: ivory; }
 
 #about_fullpage {
-  background-color: indianred; }
+  background-color: indianred;
+  text-align: center; }
 
 .about_div {
   background-color: indianred;
@@ -59,28 +112,28 @@ body {
   padding: 5px;
   width: 49%;
   vertical-align: top;
-  font-size: 14pt;
+  font-size: 18pt;
   color: ivory;
   font-family: "helvetica", sans-serif; }
 
 #about_image1 {
   display: inline-block;
   width: 49%;
-  height: 300px;
+  height: 45%;
   background-image: url(../images/teamwork.jpg);
   background-size: cover; }
 
 #about_image2 {
   display: inline-block;
   width: 49%;
-  height: 300px;
+  height: 45%;
   background-image: url(../images/whoweare.jpg);
   background-size: cover; }
 
 #about_image3 {
   display: inline-block;
   width: 49%;
-  height: 300px;
+  height: 45%;
   background-image: url(../images/eathealthy.jpg);
   background-size: cover; }
 

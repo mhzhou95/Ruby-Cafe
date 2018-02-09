@@ -1,16 +1,27 @@
-<h2>Contact Us</h2>
-
-<form method="get" action="/thanks">
-	<div>Email: <input type="text" name="email" ></div>
-	<div>Subject: <input type="text" name="subject" > </div>
-	<div>Content: <input type="text" name="content" ></div>
-	<br>
-	<input type="submit" name="" value="Send Email">
-</form>
-
-<h3>Phone Number: (267)-123-6456</h3>
-
-<div>
-<h3> Location: 123 Best Street Philadelphia Pa 19123</h3>
-<div id="picture_of_cafe"></div>
+<div id="contact_container">
+    <div id="contact_picture"></div>
+    <div id="contact_form">
+        <h2>Contact Us</h2>
+        <br>
+        <form method="get" action="/thanks">
+            <div>Email:
+                <input type="text" name="email" id="email">
+            </div>
+            <div>Subject:
+                <input type="text" name="subject" id="subject"> </div>
+            <br>
+            <div>Content:</div>
+            <div>
+                <textarea name="content" id="content"></textarea>
+            </div>
+            <br>
+            <input type="submit" name="" value="Send Email" id="send_email">
+        </form>
+    </div>
+    <div id="phonenumber">
+        <br>
+        <h3>Phone Number: (267)-123-6456</h3>
+        <br>
+        <h3> Location: 123 Best Street Philadelphia Pa 19123</h3>
+    </div>
 </div>
