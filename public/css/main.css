@@ -129,4 +129,12 @@ body {
   margin: 15;
   box-shadow: 10px 5px 5px; }
 
+#modal {
+  width: 500px;
+  height: 250px;
+  border: solid;
+  display: none;
+  margin: 0 auto;
+  background-color: ivory; }
+
 /*# sourceMappingURL=main.css.map */
