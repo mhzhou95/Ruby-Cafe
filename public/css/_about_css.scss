@@ -1,16 +1,22 @@
 .about_header {
     text-align: center;
     font-family: $font-family;
-    color: $color;
+    color: #ff4d4d;
+    font-size: 27pt;
 }
 
 #about_fullpage {
-    background-color: $background-color;
     text-align: center;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(../images/eathealthy.jpg);
+    background-size:cover;
+
 }
 
+
 .about_div {
-    background-color: $background-color;
     display: inline-block;
     margin: 10px auto;
     padding: 5px;
@@ -19,14 +25,14 @@
     font-size: 18pt;
     color: $color;
     font-family: $font-family;
+    opacity: 2.0;
+
 }
 
-#about_image1 {
-    display: inline-block;
-    width: 49%;
-    height: 45%;
-    background-image: url(../images/teamwork.jpg);
-    background-size: cover;
+.about_div1 {
+    @extend .about_div;
+    width: 40%;
+
 }
 
 #about_image2 {
@@ -37,10 +43,3 @@
     background-size: cover;
 }
 
-#about_image3 {
-    display: inline-block;
-    width: 49%;
-    height: 45%;
-    background-image: url(../images/eathealthy.jpg);
-    background-size: cover;
-}
