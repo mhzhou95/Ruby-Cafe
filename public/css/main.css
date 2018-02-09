@@ -1,3 +1,4 @@
+
 .navbar {
   background-color: lightgrey;
   width: 100%;
@@ -35,6 +36,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   border-top: solid black; }
 
+
 body {
   background-color: indianred;
   font-family: "helvetica", sans-serif; }
@@ -45,20 +47,34 @@ body {
   line-height: 1; }
 
 .about_header {
-  text-align: center; }
+  text-align: center;
+  font-family: "helvetica", sans-serif;
+  color: ivory; }
 
 #about_fullpage {
+
+  background-color: IndianRed; }
+
+.about_div {
+  background-color: IndianRed;
+
   background-color: indianred; }
 
 .about_div {
   background-color: indianred;
+
   display: inline-block;
   margin: 10px auto;
   padding: 5px;
   width: 49%;
   vertical-align: top;
   font-size: 14pt;
+
+  color: ivory;
+  font-family: "helvetica", sans-serif; }
+
   color: ivory; }
+
 
 #about_image1 {
   display: inline-block;
@@ -81,6 +97,10 @@ body {
   background-image: url(../images/eathealthy.jpg);
   background-size: cover; }
 
+
+.navbar {
+  background-color: lightgrey;
+}
 #header {
   font-family: "helvetica", sans-serif;
   text-align: center;
@@ -88,6 +108,7 @@ body {
   font-size: 40px; }
 
 #dinerphoto {
+
   width: 100%;
   height: 500px;
   background-image: url(../images/diner.jpg);
@@ -129,6 +150,7 @@ body {
   margin: 15;
   box-shadow: 10px 5px 5px; }
 
+
 #modal {
   width: 500px;
   height: 400px;
@@ -152,5 +174,6 @@ body {
   width: 60px;
   height: 60px;
   background-color: grey; }
+
 
 /*# sourceMappingURL=main.css.map */
