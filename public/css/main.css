@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 .navbar {
   background-color: lightgrey;
   width: 100%;
@@ -37,7 +36,6 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   border-top: solid black; }
 
->>>>>>> master
 body {
   background-color: indianred;
   font-family: "helvetica", sans-serif; }
@@ -53,29 +51,36 @@ body {
   color: ivory; }
 
 #about_fullpage {
-<<<<<<< HEAD
+
   background-color: IndianRed; }
 
 .about_div {
   background-color: IndianRed;
-=======
+
   background-color: indianred; }
 
 .about_div {
   background-color: indianred;
->>>>>>> master
+
+
+
   display: inline-block;
   margin: 10px auto;
   padding: 5px;
   width: 49%;
   vertical-align: top;
   font-size: 14pt;
-<<<<<<< HEAD
+
   color: ivory;
   font-family: "helvetica", sans-serif; }
-=======
+
+
+  color: ivory;
+  font-family: "helvetica", sans-serif; }
+
   color: ivory; }
->>>>>>> master
+
+
 
 #about_image1 {
   display: inline-block;
@@ -98,10 +103,14 @@ body {
   background-image: url(../images/eathealthy.jpg);
   background-size: cover; }
 
-<<<<<<< HEAD
 .navbar {
   background-color: lightgrey;
-=======
+
+
+.navbar {
+  background-color: lightgrey;
+}
+
 #header {
   font-family: "helvetica", sans-serif;
   text-align: center;
@@ -109,7 +118,8 @@ body {
   font-size: 40px; }
 
 #dinerphoto {
->>>>>>> master
+
+
   width: 100%;
   height: 500px;
   background-image: url(../images/diner.jpg);
@@ -151,8 +161,7 @@ body {
   margin: 15;
   box-shadow: 10px 5px 5px; }
 
-<<<<<<< HEAD
-=======
+
 #modal {
   width: 500px;
   height: 400px;
@@ -177,5 +186,5 @@ body {
   height: 60px;
   background-color: grey; }
 
->>>>>>> master
+
 /*# sourceMappingURL=main.css.map */
