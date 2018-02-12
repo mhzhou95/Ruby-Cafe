@@ -42,4 +42,8 @@ puts response.headers
 	erb :aftercontact
 end
 
+get "/action_page.php" do 
+	erb :aftercontact
+end
+
 
